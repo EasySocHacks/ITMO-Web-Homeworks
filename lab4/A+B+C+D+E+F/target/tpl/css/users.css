@@ -1,0 +1,30 @@
+main .datatable .caption {
+    border-top: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    background: var(--caption-background-color);
+    height: var(--table-caption-height);
+    padding-left: 5px;
+}
+
+main .datatable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+main .datatable table tr td {
+    border: 1px solid var(--border-color);
+    text-align: center;
+    height: var(--table-row-height);
+}
+
+main .datatable table tr th {
+    border: 1px solid var(--border-color);
+    height: var(--table-row-height);
+}
+
+main .datatable table tbody tr:nth-child(odd) {
+    background: var(--background-color);
+}

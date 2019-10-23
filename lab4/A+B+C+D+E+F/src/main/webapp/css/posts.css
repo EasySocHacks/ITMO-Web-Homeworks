@@ -1,0 +1,42 @@
+main article {
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+main article .title {
+    font-weight: bold;
+    color: var(--caption-color);
+    font-size: var(--title-size);
+}
+
+main article .information {
+    color: var(--information-color);
+    font-size: var(--information-font-size);
+}
+
+main article .body {
+    border-left: 4px solid var(--border-color);
+    padding-left: 10px;
+}
+
+main article .footer {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+main article .footer .left {
+    display: inline-block;
+    padding: var(--left-footer-top-bottom-padding) var(--left-footer-right-left-padding);
+}
+
+main article .footer .left .positive-score {
+    position: relative;
+    bottom: 3px;
+}
+
+main article .footer .right {
+    display: inline;
+    float: right;
+    padding-top: var(--right-footer-top-bottom-padding);
+    padding-right: var(--right-footer-right-left-padding);
+}

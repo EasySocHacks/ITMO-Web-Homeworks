@@ -1,0 +1,39 @@
+main .userPage {
+    border-radius: var(--border-radius);
+    height: var(--user-page-height);
+    padding: var(--user-page-padding);
+    border: 1px solid var(--border-color);
+}
+
+main .userPage .noSuchUserMessage {
+    text-align: center;
+}
+
+main .userPage .userLink {
+    display: inline-block;
+    font-size: var(--user-link-font-size);
+}
+
+main .userPage .userInfo {
+    font-size: var(--user-info-font-size);
+    padding-left: var(--user-info-padding-left);
+    padding-top: var(--user-info-padding-top);
+}
+
+main .userPage .userImage {
+    display: inline;
+    float: right;
+    pointer-events: none;
+}
+
+main .moveUserBar .moveArrowActive {
+    font-size: var(--move-arrow-font-size);
+    color: var(--move-arrow-color);
+    text-decoration: none;
+}
+
+main .moveUserBar .moveArrowPassive {
+    font-size: var(--move-arrow-font-size);
+    color: var(--border-color);
+    margin: 0;
+}
