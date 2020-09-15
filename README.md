@@ -1,2 +1,2 @@
-# ITMO-Web-Homeworks
-ITMO web homeworks
+# IFMO-Web-Homeworks
+IFMO web homeworks
